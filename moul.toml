@@ -1,0 +1,44 @@
+# docs: https://github.com/moulco/moul/tree/master/docs#example-moultoml
+base = "/"
+ga_measurement_id = ""
+
+[style]
+theme = "system-preference"
+cover = "center"
+
+content = "left"
+
+[profile]
+name = "Sam Macpherson (Photographer/Videographer)"
+bio = "Hey 👋🏻, I'm sam and I have a passion for capturing moments and the people in them"
+
+[social]
+instagram = "sam.thegibbon"
+facebook = "sam.macpherson"
+email = "sam.mack91@gmail.com"
+
+[content]
+title = "Sam Macpherson Media"
+text = "I'm a self-taught photographer & videographer immortalizing moments and people in them"
+tags = ["Events", "Small Business", "Retreats", "Videography"]
+
+
+# Additional content
+# Photos should be place in `photos/section/1`, `photos/section/2` accordingly
+[section.1]
+title = "Events"
+text = """
+I love to capture the essence of events
+"""
+
+[section.2]
+title = "Small Business"
+text = """
+I love to celebrate small business and those who choose to share their magic and medicine with the world
+"""
+
+[section.3]
+title = "Retreats"
+text = """
+I love to capture the moments from a retreat 
+"""
