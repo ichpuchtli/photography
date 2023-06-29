@@ -80,6 +80,7 @@ link = ""
 slug = "retreats"
 folder = "photos/retreats"
 
+
 # Other setings
 [others]
 # Folders that should be copied together when exporting sites
