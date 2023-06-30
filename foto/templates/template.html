@@ -16,8 +16,8 @@
     {{- end }}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.2.2/photoswipe.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
-    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
     <div id="container">
@@ -32,9 +32,9 @@
           {{- end }}
         </nav>
       </header>
-      <div id="gallery" class="gallery">
+      <div id="gallery" class="gallery container">
           {{- range $section := .Sections }}
-          <div class="section">
+          <div class="section offset-sm-1">
             <div class="section-header-wrapper">
               <div class="section-title">
                 {{ .Title }}
@@ -60,19 +60,14 @@
           </div>
           {{- end }}
 
-          <div class="section">
+          <div class="section offset-sm-1">
             <div class="section-header-wrapper">
               <div class="section-title">
-                Video Avertising
+                // Case Study |> Outdoor Spirit AU
               </div>
               <div class="section-description">
-                I also offer video production for video advertising & promotional video for websites as well as social media.
-
-                <br />
-                <br />
-                <strong>Case Study: Outdoor Spirit AU</strong>
-                I collaborated with Outdoor Spirit AU to create a video for their website and social media. The video was shot during a corporate wellness exercise designed support people to thrive in business and in life.
-                <a href="https://www.outdoorspirit.com.au/corporate">https://www.outdoorspirit.com.au/corporate</a>
+                I collaborated with Outdoor Spirit AU to create a video for their website and social media. The video was shot during a corporate wellness exercise designed support people to thrive in business and in life. To learn more follow ->
+                <a href="https://www.outdoorspirit.com.au/corporate">[outdoorspirit.com.au/corporate]</a>
               </div>
             </div>
             <div class="container">
@@ -82,10 +77,10 @@
             </div>
             </div>
 
-          <div class="section">
+          <div class="section offset-sm-1">
             <div class="section-header-wrapper">
               <div class="section-title">
-                Vertical Videography & Reels
+                // Vertical Video && Reels |> Showcase
               </div>
               <div class="section-description">
                 Here are some recent intsagram reels that my clients are using to promote their business
@@ -101,6 +96,7 @@
             </div>
           </div>
 
+        </div>
 
       <footer>
         <p>Copyright © {{ .Config.site.author }}. All Rights Reserved.</p>

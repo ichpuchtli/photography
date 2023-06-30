@@ -1,10 +1,10 @@
 [site]
 # The title of the site
-title = "Sam Macpherson Media"
+title = "Sam Macpherson |> Media"
 # The name of the author
-author = "Sam Macpherson"
+author = "/* Sam Macpherson */"
 
-description = "Hey, I'm Sam. I'm a photographer and videographer based in Samford Valley Qld, Australia." 
+description = "// Hey, I'm Sam. I'm a photographer and videographer based in 📍 Samford Valley Qld, Australia." 
 
 [[site.nav]]
 icon = "assets/icons/instagram.svg"
@@ -31,24 +31,15 @@ thumbnailWidth = 640
 # Width for enlarged images
 originalWidth = 2048
 
-# Photo sections
-# You can remove or add more sections by adding following lines
-#     [[section]]
-#     title = "section title"
-#     text = "section description"
-#     slug = "section-slug"
-#     folder = "folder of photos"
-# Photo sections are added in the order encountered.
-
 [[section]]
-title = "Small business: Case Study"
+title = "// Small business |> Case Study"
 text = "Matt & Lamisha from Creative Roots Breath Thearapy are a small business based in Brisbane, Australia. They offer a range of services including breathwork, meditation and sound healing. They are passionate about helping people to heal and grow through these practices. I was lucky enough to work with them to create a short instagram reel and photo series to help promote their business."
 link = "https://www.creativerootsbreaththerapy.com/"
 slug = "workshops"
 folder = "photos/workshops"
 
 [[section]]
-title = "Samford Live: Case Study"
+title = "// Samford Live |> Case Study"
 link = "https://www.samfordlive.au"
 text = """
 "Samford Live is a locally inspired, community based, not for profit run by artists. They aim to enrich the culture of our local community through music.." 
@@ -70,11 +61,11 @@ folder = "photos/events"
 #folder = "photos/spirit"
 
 [[section]]
-title = "Men's Health & Wellbeing Retreats"
+title = "// Men's Work && Wellbeing Retreats"
 text = """
-I've worked with several men's health practioners & leaders to help promote their events,
-This is my favourite niche of photography and videography and I love to share these photos and videos with the participates as a way to help them remember the experience"
-In these spaces I get to meet some amazing people and I get to learn a lot about myself in the process."
+I've worked with several men's work practioners & leaders in the space to bring mens work more 'mainstream'.
+This is my favourite niche of photography and videography and I love to share these photos and videos with the participates as a way to help them remember the experience
+In these spaces I get to meet some amazing people and I get to learn a lot about myself in the process.
 """
 link = ""
 slug = "retreats"

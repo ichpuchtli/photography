@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise");
+/* CSS */
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
 body {
   color: #000000;
@@ -6,7 +7,7 @@ body {
 }
 
 @media (prefers-color-scheme: light) {
-  body { color: #000000; background: #ffffff; }
+  body { color: #000000 !important; background: #ffffff !important; }
 
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -19,12 +20,12 @@ body {
   }
 }
 @media (prefers-color-scheme: dark) {
-  body { color: #f9f9f9; background: #000000; }
+  body { color: #f9f9f9 !important; background: #000000 !important; }
 
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(
-      rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.9)),
+      rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),
       url("cover.jpg");
   }
 
@@ -57,7 +58,6 @@ body {
 header {
   padding: 15em 1em;
   text-align: center;
-  font-family: "Waiting for the Sunrise";
 }
 header img.avatar {
   width: 64px;
@@ -85,11 +85,9 @@ header nav a img{
 
 .section {
   margin-top: 3em;
-  font-family: "Waiting for the Sunrise";
 }
 .section-header-wrapper {
   max-width: 800px;
-  margin-left: 4em;
 }
 .section-title {
   font-size: 1.6em;
@@ -123,6 +121,7 @@ footer .foto_footer {
 body,
 html {
   height: 100%;
+  font-family: 'Fira Code', monospace;
 }
 
 /* The hero image */
