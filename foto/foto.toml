@@ -50,18 +50,6 @@ text = """
 slug = "events"
 folder = "photos/events"
 
-#[[section]]
-#title = "Outdoor Spirit AU: Case Study"
-#text = """
-#Outdoor Spirit AU is a small business based in Brisbane, Australia.
-#They offer a range of services including guided hikes, retreats and workshops.
-#They are passionate about helping people to connect with nature and themselves through these practices.
-#I was lucky enough to be able to work with them to create a horizontal and vertical video and photo series to help promote their business.
-#"""
-#link = "https://www.outdoorspirit.com.au/"
-#slug = "outdoor"
-#folder = "photos/spirit"
-
 [[section]]
 title = "|> Men's Work Movements"
 text = """

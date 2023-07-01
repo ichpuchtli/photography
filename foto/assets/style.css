@@ -71,12 +71,12 @@ header .description {
   line-height: 1.6em;
 }
 header nav {
-  margin: 1em 0;
+  margin: 2em 0;
 }
-
 
 header nav a img{
   margin: 0 0.6em;
+  height: 1.5em;
 }
 
 .section {
