@@ -1,10 +1,12 @@
 [site]
 # The title of the site
-title = "Sam Macpherson |> Media"
+title = "|> Sam Macpherson Media"
 # The name of the author
 author = "/* Sam Macpherson */"
 
-description = "// Hey, I'm Sam. I'm a photographer and videographer based in 📍 Samford Valley Qld, Australia." 
+date = "2023"
+
+description = "// Hey, I'm Sam. I'm a photographer and videographer based in Samford Valley Qld" 
 
 [[site.nav]]
 icon = "assets/icons/instagram.svg"
@@ -32,14 +34,14 @@ thumbnailWidth = 640
 originalWidth = 2048
 
 [[section]]
-title = "// Small business |> Case Study"
+title = "Small business |> Case Study"
 text = "Matt & Lamisha from Creative Roots Breath Thearapy are a small business based in Brisbane, Australia. They offer a range of services including breathwork, meditation and sound healing. They are passionate about helping people to heal and grow through these practices. I was lucky enough to work with them to create a short instagram reel and photo series to help promote their business."
 link = "https://www.creativerootsbreaththerapy.com/"
 slug = "workshops"
 folder = "photos/workshops"
 
 [[section]]
-title = "// Samford Live |> Case Study"
+title = "Small Business |> Case Study"
 link = "https://www.samfordlive.au"
 text = """
 "Samford Live is a locally inspired, community based, not for profit run by artists. They aim to enrich the culture of our local community through music.." 
@@ -61,11 +63,12 @@ folder = "photos/events"
 #folder = "photos/spirit"
 
 [[section]]
-title = "// Men's Work && Wellbeing Retreats"
+title = "|> Men's Work Movements"
 text = """
-I've worked with several men's work practioners & leaders in the space to bring mens work more 'mainstream'.
-This is my favourite niche of photography and videography and I love to share these photos and videos with the participates as a way to help them remember the experience
-In these spaces I get to meet some amazing people and I get to learn a lot about myself in the process.
+I've worked with several men's work practioners & leaders in the space
+to bring more awareness around the men's work movement.
+I love these spaces and have gained a lot from both particpating and sharing 
+what I capture in these spaces with the men participating and the community at large.
 """
 link = ""
 slug = "retreats"

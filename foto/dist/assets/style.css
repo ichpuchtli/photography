@@ -51,12 +51,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-#gallery {
-  margin: 8px;
-}
-
 header {
-  padding: 15em 1em;
+  padding: 8em 1em 8em 1em;
   text-align: center;
 }
 header img.avatar {
@@ -86,9 +82,6 @@ header nav a img{
 .section {
   margin-top: 3em;
 }
-.section-header-wrapper {
-  max-width: 800px;
-}
 .section-title {
   font-size: 1.6em;
   font-weight: medium;
@@ -96,9 +89,8 @@ header nav a img{
 }
 .section-description {
   line-height: 1.4em;
-}
-.section-images {
-  margin-top: 2em;
+  text-align: justify;
+  margin-bottom: 2em;
 }
 
 /* This is requried for Grid */
